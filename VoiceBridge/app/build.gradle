@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' version '8.7.3' }
+android {
+    namespace 'local.voicebridge'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'local.voicebridge'
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName '0.1'
+    }
+}
